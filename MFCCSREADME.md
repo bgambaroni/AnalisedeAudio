@@ -22,6 +22,8 @@ Extraí os 13 coeficientes MFCC clássicos – o pipeline completo (windowing �
 - Matriz resultante: 13 coeficientes × número de frames temporais
 - Visualização do heatmap dos MFCCs está no notebook (próximo passo: salvar como imagem)
 
+![MFCCs - 13 Coeficientes](MFCCS.png)
+
 ## Redução de Dimensionalidade Incrível
 - Áudio bruto → milhões de amostras de amplitude
 - Após processamento → **apenas 13 números** que resumem a "alma" do som (timbre essencial)
