@@ -4,7 +4,7 @@ Projeto prático de processamento de sinais de áudio usando **Python** e a bibl
 
 Transformei um áudio bruto em visualizações e features numéricas compactas, mostrando o poder da redução de dimensionalidade no audio processing.
 
-## Visualizações Geradas
+## Visualizações Geradas:
 
 ### 1. Waveform (Forma de Onda)
 Mostra a amplitude do sinal ao longo do tempo.
