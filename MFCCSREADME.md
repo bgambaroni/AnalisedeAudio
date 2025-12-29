@@ -14,7 +14,7 @@ Mostra a amplitude do sinal ao longo do tempo.
 ### 2. Espectrograma Mel
 Representação frequencial na escala Mel (como o ouvido humano percebe o som).
 
-![Espectrograma Mel](audiomel.png)
+![Espectrograma Mel](audioMel.png)
 
 ### 3. MFCCs (Mel-Frequency Cepstral Coefficients)
 Extraí os 13 coeficientes MFCC clássicos – o pipeline completo (windowing → FFT → Mel filterbank → log → DCT) está implementado.
