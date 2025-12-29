@@ -3,7 +3,7 @@
 Projeto inicial de processamento de sinais de áudio usando Python e a biblioteca Librosa no Google Colab.
 
 ## Waveform do áudio analisado
-![Waveform - Análise Exploratória](analise_audio.png)
+![Waveform - Análise Exploratória](analise%20audio.png)
 
 ## O que foi feito
 - Carregamento do áudio com `librosa.load`
