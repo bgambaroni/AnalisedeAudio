@@ -31,7 +31,7 @@ Análise preliminar: perfil muito próximo de **música pop/rock** – alta ener
 ## Como Executar
 Abra o notebook diretamente no Google Colab e faça upload do seu próprio áudio:
 
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bgambaroni/analisedeaudio/blob/main/MFCCS.ipynb](https://colab.research.google.com/drive/1XkpR6KzvzPVlgDi-IYVjIR0SyXRawRBa?usp=sharing))
+[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bgambaroni/analisedeaudio/blob/main/MFCCS.ipynb](https://colab.research.google.com/drive/1XkpR6KzvzPVlgDi-IYVjIR0SyXRawRBa?usp=sharing)
 
 ## Tecnologias Utilizadas
 - Python
