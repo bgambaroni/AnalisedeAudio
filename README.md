@@ -1,22 +1,5 @@
 # Análise Exploratória de Áudio com Librosa 🔊
 
-Projeto prático de processamento de sinais de áudio usando **Python** e a biblioteca **Librosa** no Google Colab.
-
-Transformei um áudio bruto em visualizações e features numéricas compactas, mostrando o poder da redução de dimensionalidade no audio processing.
-
-## Visualizações Geradas:
-
-### 1. Waveform (Forma de Onda)
-Mostra a amplitude do sinal ao longo do tempo.
-
-![Waveform](analise%20audio.png)
-
-### 2. Espectrograma Mel
-Representação frequencial na escala Mel (como o ouvido humano percebe o som).
-
-![Espectrograma Mel](audioMel.png)
-
-### 3. MFCCs (Mel-Frequency Cepstral Coefficients)
 Extraí os 13 coeficientes MFCC clássicos – o pipeline completo (windowing → FFT → Mel filterbank → log → DCT) está implementado.
 
 - Matriz resultante: 13 coeficientes × número de frames temporais
@@ -43,13 +26,12 @@ MFCC 11:   +3.66
 MFCC 12:   -5.84
 MFCC 13:   +1.80
 
-
 Análise preliminar: perfil muito próximo de **música pop/rock** – alta energia em frequências médias-altas e distribuição harmônica rica.
 
 ## Como Executar
 Abra o notebook diretamente no Google Colab e faça upload do seu próprio áudio:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bgambaroni/analisedeaudio/blob/main/MFCCS.ipynb)
+[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bgambaroni/analisedeaudio/blob/main/MFCCS.ipynb](https://colab.research.google.com/drive/1XkpR6KzvzPVlgDi-IYVjIR0SyXRawRBa?usp=sharing))
 
 ## Tecnologias Utilizadas
 - Python
@@ -57,11 +39,5 @@ Abra o notebook diretamente no Google Colab e faça upload do seu próprio áudi
 - Matplotlib
 - Google Colab
 
-## Próximos Passos
-- Salvar o heatmap dos MFCCs como imagem e adicionar aqui
-- Calcular delta e delta-delta (total de 39 features)
-- Comparar múltiplos áudios via distância cosseno
-- Classificação simples (fala × música × ambiente)
-- Clustering automático de vários arquivos
 
 #Python #AudioProcessing #Librosa #DataScience #MachineLearning #SignalProcessing
